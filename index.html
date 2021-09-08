@@ -1,9 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1.0"> />
+        <meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Malcolm McClenic</title>
+        <script src="https://kit.fontawesome.com/7bc6910ea9.js" crossorigin="anonymous"></script>
         <link rel="stylesheet" type="text/css" href="stylesBlog.css"/>
+        <link rel="stylesheet" type="css" href= "node_modules/bootstrap/dist/css/bootstrap.min.css" />
         <!-- Link bootstrap here too dont forget -->
         <!-- Dynamic sizing too -->
     </head>
@@ -60,6 +62,11 @@
             <div class="container" style="text-align: center;">
                 <div>
                     <h3 style="font-size: medium;">Interested in working together?</h3>
+                    <span>
+                        <a role="button" data-toggle="modal" data-target="#contactModal">
+                            <i class= far fa-address-book">Contact Me</i>
+                        </a>
+                    </span>
                     <button type="button">Email me</button>
                 </div>
                 <div class="container" style="text-align: left;">
@@ -76,6 +83,22 @@
                 </div>
             </div>
         </footer>
+
+    <div id="contactModal" class="modal fade" role="dialog">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h3 class="modal-title">Contact Me</h3>
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                </div>
+                <div class="modal-body">
+                    <div class="container-fluid">
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
         <!-- Insert js dont forget or your stuff wont work -->
     </body>
 </html>
