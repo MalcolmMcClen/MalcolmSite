@@ -6,6 +6,15 @@ blockquote {
   text-align: center
 }
 
+.site-logo {
+  width: 30px;
+  height: 30px;
+  font-size: large;
+  display: block;
+  text-align: center;
+  border: 4px solid #000000;
+}
+
 h1{
   font-size: 2em;
 }
@@ -44,6 +53,17 @@ margin-right: auto;
 margin-left: 1.5em;
 margin-bottom: 5em;
 }
+
+.left-text {
+  word-wrap: break-word;
+  box-sizing: content-box;
+  width: 80%;
+  text-align: left;
+  margin-top: 2.5em;
+  margin-right: auto;
+  margin-left: 1.5em;
+  margin-bottom: 1em;
+  }
 
 .right-blurb {
   word-wrap: break-word;
@@ -96,7 +116,7 @@ margin-bottom: 5em;
   }
 
 .nav-container {
-    padding-top: 2.5em;
+    padding-top: 1.75em;
     padding-bottom: 2.5em;
   }
 
@@ -108,6 +128,16 @@ margin-bottom: 5em;
   display: flex;
   justify-content: flex-end;
   align-items: center;
+}
+
+.nav-left {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  font-size: 1.5em;
+  font-weight: bold;
+  color: #000000;
+  text-decoration: none;
 }
 
 .nav-right li {
